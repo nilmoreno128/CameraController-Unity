@@ -1,24 +1,21 @@
-# Simple Camera Controller
-A Unity asset providing smooth and customizable camera controls for 3D games, including the ability to follow specific objects upon clicking them.
+# Simple Camera Controller  
+A Unity asset designed to provide smooth and customizable camera controls for 3D games. It includes the ability for the camera to dynamically follow specific objects when clicked, allowing for an intuitive and interactive player experience.
 
-## Features
-- **Smooth Camera Movement**: Control the camera with mouse and keyboard input.
-- **Plug-and-Play**: Simple integration—drag and drop into your scene.
-- **Customizable Settings**: Easily adjust speed and position limits.
-- **Follow Objects**: Configure objects to be followable.
+## Features  
+- **Smooth Camera Movement**: Control the camera with mouse and keyboard inputs, offering a smooth and responsive experience.  
+- **Plug-and-Play**: Quick and simple integration—just drag and drop the prefab into your scene and it’s ready to use.  
+- **Customizable Settings**: Easily adjust movement speed, camera rotation limits, and position boundaries to fit the needs of your game.  
+- **Follow Objects**: Enable the camera to automatically track specific objects in your scene when clicked, creating a more interactive and engaging gameplay experience.
 
-## Installation
-1. Download the `CameraController.unitypackage` file from this repository.
-2. Open your Unity project and navigate to **Assets > Import Package > Custom Package**.
-3. Select the `CameraController.unitypackage` file and click **Import**.
+## Installation  
+1. Download the `CameraController.unitypackage` file from this repository.  
+2. Open your Unity project and go to **Assets > Import Package > Custom Package**.  
+3. Select the `CameraController.unitypackage` file and click **Import**.  
 
-## How to Use
-1. Import the asset as described above.
-2. Drag the `CameraController` prefab into your scene.
-3. Configure the camera in the **Inspector**:
-   - Adjust movement speed and limits.
-
-### Configuring Followable Objects
-To enable the "follow object" feature:
-1. Attach the `CameraFollowController` script to any object you want the camera to follow.
-2. When the object is clicked during gameplay, the camera will dynamically track it
+## How to Use  
+1. Import the asset as described above.  
+2. Drag the `CameraController` prefab into your scene to add the camera.  
+3. Adjust the camera settings in the **Inspector** to customize the movement speed, rotation limits, and other parameters.  
+4. To make objects followable:
+   - Attach the `CameraFollowController` script to any object you want the camera to track.  
+   - Click the object during gameplay, and the camera will follow it, offering a dynamic and responsive view of the action.
