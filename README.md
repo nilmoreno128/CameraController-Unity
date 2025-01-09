@@ -1,25 +1,24 @@
 # Simple Camera Controller
-A Unity asset providing a basic camera control system for 3D games.
+A Unity asset providing smooth and customizable camera controls for 3D games, including the ability to follow specific objects upon clicking them.
 
 ## Features
-- Smooth camera movement using the mouse and the keyboard.
-- Customizable settings for speed and boundaries.
-  
+- **Smooth Camera Movement**: Control the camera with mouse and keyboard input.
+- **Plug-and-Play**: Simple integration—drag and drop into your scene.
+- **Customizable Settings**: Easily adjust speed and position limits.
+- **Follow Objects**: Configure objects to be followable.
+
 ## Installation
 1. Download the `CameraController.unitypackage` file from this repository.
-2. Open Unity and go to **Assets > Import Package > Custom Package**.
-3. Select `CameraController.unitypackage` and click **Import**.
+2. Open your Unity project and navigate to **Assets > Import Package > Custom Package**.
+3. Select the `CameraController.unitypackage` file and click **Import**.
 
 ## How to Use
-1. After importing, drag the `CameraRig` prefab into your scene.
-2. Adjust the properties in the Inspector:
-   - Rotation speed.
-   - Position boundaries.
+1. Import the asset as described above.
+2. Drag the `CameraController` prefab into your scene.
+3. Configure the camera in the **Inspector**:
+   - Adjust movement speed and limits.
 
-### Example Code
-```csharp
-public class ExampleUsage : MonoBehaviour {
-    void Start() {
-        Debug.Log("Camera Controller is ready to use!");
-    }
-}
+### Configuring Followable Objects
+To enable the "follow object" feature:
+1. Attach the `CameraFollowController` script to any object you want the camera to follow.
+2. When the object is clicked during gameplay, the camera will dynamically track it
