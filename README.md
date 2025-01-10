@@ -19,3 +19,6 @@ A Unity asset designed to provide smooth and customizable free camera controls f
 4. To make objects followable:
    - Attach the `CameraFollowController` script to any object you want the camera to track.  
    - Click the object during gameplay, and the camera will follow it, offering a dynamic and responsive view of the action.
+
+## License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
