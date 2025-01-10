@@ -1,5 +1,5 @@
-# Simple Camera Controller  
-A Unity asset designed to provide smooth and customizable camera controls for 3D games. It includes the ability for the camera to dynamically follow specific objects when clicked, allowing for an intuitive and interactive player experience.
+# Free Camera Controller  
+A Unity asset designed to provide smooth and customizable free camera controls for 3D games. It includes the ability for the camera to dynamically follow specific objects when clicked, allowing for an intuitive and interactive player experience.
 
 ## Features  
 - **Smooth Camera Movement**: Control the camera with mouse and keyboard inputs, offering a smooth and responsive experience.  
