@@ -8,7 +8,7 @@ A Unity asset designed to provide smooth and customizable free camera controls f
 - **Follow Objects**: Enable the camera to automatically track specific objects in your scene when clicked, creating a more interactive and engaging gameplay experience.
 
 ## Installation  
-1. Download the `CameraController.unitypackage` file from this repository.  
+1. Download the [`CameraController.unitypackage`](CameraController.unitypackage) file from this repository.  
 2. Open your Unity project and go to **Assets > Import Package > Custom Package**.  
 3. Select the `CameraController.unitypackage` file and click **Import**.  
 
